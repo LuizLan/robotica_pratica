@@ -1,0 +1,77 @@
+[0.017s] Invoking command in '/home/luiz/robotica/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/luiz/robotica/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/luiz/robotica/install/action_tutorials_cpp
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.149s] -- Detecting C compile features - done
+[0.151s] -- Detecting CXX compiler ABI info
+[0.206s] -- Detecting CXX compiler ABI info - done
+[0.210s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.210s] -- Detecting CXX compile features
+[0.211s] -- Detecting CXX compile features - done
+[0.213s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.370s] -- Found action_tutorials_interfaces: 0.0.0 (/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[0.395s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.399s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.405s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.462s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.488s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.490s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.549s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.566s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.597s] -- Looking for pthread.h
+[0.647s] -- Looking for pthread.h - found
+[0.647s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.694s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.695s] -- Found Threads: TRUE  
+[0.728s] -- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.739s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.771s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.818s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.818s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/luiz/robotica/src/action_tutorials_cpp/include>
+[0.818s] -- Configured cppcheck exclude dirs and/or files: 
+[0.819s] -- Added test 'lint_cmake' to check CMake code style
+[0.819s] -- Added test 'uncrustify' to check C / C++ code style
+[0.819s] -- Configured uncrustify additional arguments: 
+[0.820s] -- Added test 'xmllint' to check XML markup files
+[0.821s] -- Configuring done
+[0.832s] -- Generating done
+[0.834s] -- Build files have been written to: /home/luiz/robotica/build/action_tutorials_cpp
+[0.841s] Invoked command in '/home/luiz/robotica/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/luiz/robotica/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/luiz/robotica/install/action_tutorials_cpp
+[0.842s] Invoking command in '/home/luiz/robotica/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luiz/robotica/build/action_tutorials_cpp -- -j12 -l12
+[0.876s] [ 25%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[0.876s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[2.557s] [ 75%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[2.632s] [ 75%] Built target fibonacci_action_server
+[2.992s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[3.078s] [100%] Built target action_server
+[3.085s] Invoked command in '/home/luiz/robotica/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luiz/robotica/build/action_tutorials_cpp -- -j12 -l12
+[3.086s] Invoking command in '/home/luiz/robotica/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/luiz/robotica/build/action_tutorials_cpp
+[3.090s] -- Install configuration: ""
+[3.090s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[3.091s] -- Set runtime path of "/home/luiz/robotica/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+[3.091s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/lib/libaction_server.so
+[3.092s] -- Set runtime path of "/home/luiz/robotica/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+[3.092s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[3.092s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[3.092s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[3.092s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[3.093s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[3.093s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[3.093s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[3.093s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[3.093s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[3.093s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[3.093s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[3.093s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[3.094s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[3.094s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[3.094s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[3.094s] -- Installing: /home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[3.095s] Invoked command in '/home/luiz/robotica/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/luiz/robotica/build/action_tutorials_cpp

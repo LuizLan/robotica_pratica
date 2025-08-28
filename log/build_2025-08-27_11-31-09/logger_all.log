@@ -1,0 +1,771 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ae2c6b964d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ae2c6b96020>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ae2c6b96020>>, mixin_verb=('build',))
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.187s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luiz/robotica'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_tutorials_cpp' with type 'ros.ament_cmake' and name 'action_tutorials_cpp'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_tutorials_interfaces' with type 'ros.ament_cmake' and name 'action_tutorials_interfaces'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_launch_example' with type 'ros.ament_cmake' and name 'cpp_launch_example'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_tutorial' with type 'ros.ament_python' and name 'launch_tutorial'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_plugins' with type 'ros.ament_cmake' and name 'polygon_plugins'
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/luiz/robotica/install
+[0.218s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.243s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'action_tutorials_interfaces' is in: /home/luiz/robotica/install/action_tutorials_interfaces, /opt/ros/humble
+	'action_tutorials_cpp' is in: /home/luiz/robotica/install/action_tutorials_cpp, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding action_tutorials_cpp action_tutorials_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/action_tutorials_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/action_tutorials_interfaces', 'merge_install': False, 'path': '/home/luiz/robotica/src/action_tutorials_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_launch_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/cpp_launch_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/cpp_launch_example', 'merge_install': False, 'path': '/home/luiz/robotica/src/cpp_launch_example', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/cpp_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/cpp_parameters', 'merge_install': False, 'path': '/home/luiz/robotica/src/cpp_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/cpp_pubsub', 'merge_install': False, 'path': '/home/luiz/robotica/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/cpp_srvcli', 'merge_install': False, 'path': '/home/luiz/robotica/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'launch_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/launch_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/launch_tutorial', 'merge_install': False, 'path': '/home/luiz/robotica/src/launch_tutorial', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'more_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/more_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/more_interfaces', 'merge_install': False, 'path': '/home/luiz/robotica/src/more_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/polygon_base', 'merge_install': False, 'path': '/home/luiz/robotica/src/polygon_base', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/action_tutorials_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/action_tutorials_cpp', 'merge_install': False, 'path': '/home/luiz/robotica/src/action_tutorials_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luiz/robotica/build/polygon_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luiz/robotica/install/polygon_plugins', 'merge_install': False, 'path': '/home/luiz/robotica/src/polygon_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.246s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luiz/robotica/src/action_tutorials_interfaces' with build type 'ament_cmake'
+[0.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luiz/robotica/src/action_tutorials_interfaces'
+[0.248s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luiz/robotica/src/polygon_base' with build type 'ament_cmake'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luiz/robotica/src/polygon_base'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luiz/robotica/src/cpp_launch_example' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luiz/robotica/src/cpp_launch_example'
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luiz/robotica/src/cpp_parameters' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luiz/robotica/src/cpp_parameters'
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luiz/robotica/src/cpp_pubsub' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luiz/robotica/src/cpp_pubsub'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luiz/robotica/src/cpp_srvcli' with build type 'ament_cmake'
+[0.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luiz/robotica/src/cpp_srvcli'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/luiz/robotica/src/launch_tutorial' with build type 'ament_python'
+[0.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'ament_prefix_path')
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.ps1'
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.dsv'
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.sh'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luiz/robotica/src/more_interfaces' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luiz/robotica/src/more_interfaces'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/action_tutorials_interfaces -- -j12 -l12
+[0.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/polygon_base -- -j12 -l12
+[0.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/cpp_launch_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/cpp_launch_example -- -j12 -l12
+[0.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/cpp_parameters -- -j12 -l12
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/cpp_pubsub -- -j12 -l12
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/cpp_srvcli -- -j12 -l12
+[0.469s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/luiz/robotica/src/launch_tutorial'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/more_interfaces -- -j12 -l12
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/polygon_base -- -j12 -l12
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/polygon_base
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/cpp_pubsub -- -j12 -l12
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/cpp_pubsub
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/cpp_launch_example -- -j12 -l12
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/cpp_launch_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/cpp_launch_example
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/cpp_srvcli -- -j12 -l12
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/cpp_srvcli
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/cpp_parameters -- -j12 -l12
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/cpp_parameters
+[0.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[0.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/polygon_base
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base' for CMake module files
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base' for CMake config files
+[0.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/lib'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/bin'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/lib/python3.10/site-packages'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/bin'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.dsv'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.sh'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.bash'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.zsh'
+[0.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/polygon_base/share/colcon-core/packages/polygon_base)
+[0.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base' for CMake module files
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base' for CMake config files
+[0.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/lib'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/bin'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/lib/python3.10/site-packages'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_base/bin'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.sh'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.bash'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_base/share/polygon_base/package.zsh'
+[0.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/polygon_base/share/colcon-core/packages/polygon_base)
+[0.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub' for CMake module files
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/cpp_pubsub
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub' for CMake config files
+[0.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/lib'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/bin'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/lib/python3.10/site-packages'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/bin'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[0.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[0.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub' for CMake module files
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub' for CMake config files
+[0.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/lib'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/bin'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/lib/python3.10/site-packages'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_pubsub/bin'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[0.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[0.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli' for CMake module files
+[0.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/cpp_srvcli
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli' for CMake config files
+[0.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/lib'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/bin'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/lib/python3.10/site-packages'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/bin'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[0.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[0.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli' for CMake module files
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli' for CMake config files
+[0.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/lib'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/bin'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/lib/python3.10/site-packages'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_srvcli/bin'
+[0.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[0.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[0.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[0.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_launch_example)
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example' for CMake module files
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/cpp_launch_example
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example' for CMake config files
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_launch_example', 'cmake_prefix_path')
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.ps1'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.dsv'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.sh'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example/bin'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example/lib/pkgconfig/cpp_launch_example.pc'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example/lib/python3.10/site-packages'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example/bin'
+[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.ps1'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.sh'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.bash'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.zsh'
+[0.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/cpp_launch_example/share/colcon-core/packages/cpp_launch_example)
+[0.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_launch_example)
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example' for CMake module files
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example' for CMake config files
+[0.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_launch_example', 'cmake_prefix_path')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.ps1'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.sh'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example/bin'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example/lib/pkgconfig/cpp_launch_example.pc'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example/lib/python3.10/site-packages'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_launch_example/bin'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.sh'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.bash'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_launch_example/share/cpp_launch_example/package.zsh'
+[0.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/cpp_launch_example/share/colcon-core/packages/cpp_launch_example)
+[0.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luiz/robotica/src/polygon_plugins' with build type 'ament_cmake'
+[0.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luiz/robotica/src/polygon_plugins'
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters' for CMake module files
+[0.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/cpp_parameters
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters' for CMake config files
+[0.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/lib'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/bin'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/lib/python3.10/site-packages'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/bin'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.sh'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.bash'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[0.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[0.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters' for CMake module files
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters' for CMake config files
+[0.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/lib'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/bin'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/lib/python3.10/site-packages'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/cpp_parameters/bin'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.sh'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.bash'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[0.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/action_tutorials_interfaces -- -j12 -l12
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/action_tutorials_interfaces
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/polygon_base:/home/luiz/robotica/install/cpp_launch_example:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/action_tutorials_cpp:/home/luiz/robotica/install/action_tutorials_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/polygon_plugins -- -j12 -l12
+[0.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces' for CMake module files
+[0.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/action_tutorials_interfaces
+[0.614s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces' for CMake config files
+[0.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/lib'
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/bin'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/lib/python3.10/site-packages'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/bin'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[0.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[0.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces' for CMake module files
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces' for CMake config files
+[0.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/lib'
+[0.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/bin'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/lib/python3.10/site-packages'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_interfaces/bin'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[0.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[0.625s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luiz/robotica/src/action_tutorials_cpp' with build type 'ament_cmake'
+[0.625s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luiz/robotica/src/action_tutorials_cpp'
+[0.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/polygon_base:/home/luiz/robotica/install/cpp_launch_example:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/action_tutorials_cpp:/home/luiz/robotica/install/action_tutorials_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/polygon_plugins -- -j12 -l12
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/polygon_base:/home/luiz/robotica/install/cpp_launch_example:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/action_tutorials_cpp:/home/luiz/robotica/install/action_tutorials_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/polygon_plugins
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/cpp_launch_example:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/action_tutorials_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luiz/robotica/build/action_tutorials_cpp -- -j12 -l12
+[0.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins' for CMake module files
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/polygon_base:/home/luiz/robotica/install/cpp_launch_example:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/action_tutorials_cpp:/home/luiz/robotica/install/action_tutorials_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/polygon_plugins
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins' for CMake config files
+[0.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/lib'
+[0.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/bin'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/lib/python3.10/site-packages'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/bin'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.sh'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.bash'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[0.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[0.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins' for CMake module files
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins' for CMake config files
+[0.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/lib'
+[0.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/bin'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/lib/python3.10/site-packages'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/polygon_plugins/bin'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.sh'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.bash'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[0.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/cpp_launch_example:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/action_tutorials_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luiz/robotica/build/action_tutorials_cpp -- -j12 -l12
+[0.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/cpp_launch_example:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/action_tutorials_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/luiz/robotica/build/action_tutorials_cpp
+[0.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_cpp)
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp' for CMake module files
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp' for CMake config files
+[0.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'cmake_prefix_path')
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.dsv'
+[0.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/cpp_launch_example:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/action_tutorials_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/luiz/robotica/build/action_tutorials_cpp
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/lib'
+[0.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'ld_library_path_lib')
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.sh'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/bin'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/lib/pkgconfig/action_tutorials_cpp.pc'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/lib/python3.10/site-packages'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/bin'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.sh'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.bash'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.zsh'
+[0.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/action_tutorials_cpp/share/colcon-core/packages/action_tutorials_cpp)
+[0.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_cpp)
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp' for CMake module files
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp' for CMake config files
+[0.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'cmake_prefix_path')
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.dsv'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.sh'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/lib'
+[0.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'ld_library_path_lib')
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.sh'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/bin'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/lib/pkgconfig/action_tutorials_cpp.pc'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/lib/python3.10/site-packages'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/action_tutorials_cpp/bin'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.sh'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.bash'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/action_tutorials_cpp/share/action_tutorials_cpp/package.zsh'
+[0.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/action_tutorials_cpp/share/colcon-core/packages/action_tutorials_cpp)
+[0.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/src/launch_tutorial': PYTHONPATH=/home/luiz/robotica/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luiz/robotica/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/luiz/robotica/build/launch_tutorial/build install --record /home/luiz/robotica/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[0.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luiz/robotica/build/more_interfaces -- -j12 -l12
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luiz/robotica/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/more_interfaces
+[0.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces' for CMake module files
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luiz/robotica/build/more_interfaces
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces' for CMake config files
+[0.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/lib'
+[0.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/bin'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/lib/python3.10/site-packages'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/bin'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.ps1'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.sh'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.bash'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.zsh'
+[0.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[0.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces' for CMake module files
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces' for CMake config files
+[0.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/lib'
+[0.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/bin'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/lib/python3.10/site-packages'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/more_interfaces/bin'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.ps1'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.dsv'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.sh'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.bash'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/more_interfaces/share/more_interfaces/package.zsh'
+[0.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/launch_tutorial' for CMake module files
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luiz/robotica/src/launch_tutorial' returned '0': PYTHONPATH=/home/luiz/robotica/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luiz/robotica/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/luiz/robotica/build/launch_tutorial/build install --record /home/luiz/robotica/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/launch_tutorial' for CMake config files
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/launch_tutorial/lib'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/launch_tutorial/bin'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/launch_tutorial/lib/pkgconfig/launch_tutorial.pc'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/launch_tutorial/lib/python3.10/site-packages'
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'pythonpath')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.dsv'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.sh'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/luiz/robotica/install/launch_tutorial/bin'
+[0.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_tutorial)
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/package.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/package.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/package.sh'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/package.bash'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/luiz/robotica/install/launch_tutorial/share/launch_tutorial/package.zsh'
+[0.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luiz/robotica/install/launch_tutorial/share/colcon-core/packages/launch_tutorial)
+[0.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.917s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.921s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.929s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.929s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luiz/robotica/install/local_setup.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luiz/robotica/install/_local_setup_util_ps1.py'
+[0.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luiz/robotica/install/setup.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luiz/robotica/install/local_setup.sh'
+[0.932s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luiz/robotica/install/_local_setup_util_sh.py'
+[0.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luiz/robotica/install/setup.sh'
+[0.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luiz/robotica/install/local_setup.bash'
+[0.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luiz/robotica/install/setup.bash'
+[0.934s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luiz/robotica/install/local_setup.zsh'
+[0.934s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luiz/robotica/install/setup.zsh'

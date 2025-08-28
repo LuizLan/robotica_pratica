@@ -1,0 +1,17 @@
+/home/luiz/robotica/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/luiz/robotica/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/luiz/robotica/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/luiz/robotica/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/luiz/robotica/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/luiz/robotica/install/cpp_srvcli/share/cpp_srvcli/package.xml

@@ -1,0 +1,18 @@
+[0.013s] Invoking command in '/home/luiz/robotica/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/action_tutorials_cpp:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/action_tutorials_cpp/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luiz/robotica/build/action_tutorials_cpp -- -j12 -l12
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_action_client[0m
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.055s] [ 25%] Built target fibonacci_action_server
+[0.055s] [ 50%] Built target action_server
+[0.056s] [ 75%] Built target fibonacci_action_client
+[0.057s] [ 87%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[1.366s] [01m[K/home/luiz/robotica/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:24:14:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+[1.366s]    24 |             }[01;31m[K=[m[Kvoid send_goal()
+[1.366s]       |              [01;31m[K^[m[K
+[1.374s] [01m[K/home/luiz/robotica/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:[m[K In constructor ‘[01m[Kaction_tutorials_cpp::FibonacciActionClient::FibonacciActionClient(const rclcpp::NodeOptions&)[m[K’:
+[1.374s] [01m[K/home/luiz/robotica/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:23:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_goal[m[K’ is not a member of ‘[01m[Kaction_tutorials_cpp::FibonacciActionClient[m[K’
+[1.374s]    23 |                 std::bind(&FibonacciActionClient::[01;31m[Ksend_goal[m[K, this));
+[1.374s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[1.704s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o] Error 1
+[1.704s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client.dir/all] Error 2
+[1.704s] gmake: *** [Makefile:146: all] Error 2
+[1.706s] Invoked command in '/home/luiz/robotica/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=/home/luiz/robotica/install/action_tutorials_interfaces:/home/luiz/robotica/install/action_tutorials_cpp:/home/luiz/robotica/install/more_interfaces:/home/luiz/robotica/install/cpp_srvcli:/home/luiz/robotica/install/cpp_pubsub:/home/luiz/robotica/install/cpp_parameters:/home/luiz/robotica/install/polygon_plugins:/home/luiz/robotica/install/polygon_base:/opt/ros/humble LD_LIBRARY_PATH=/home/luiz/robotica/install/action_tutorials_interfaces/lib:/home/luiz/robotica/install/action_tutorials_cpp/lib:/home/luiz/robotica/install/more_interfaces/lib:/home/luiz/robotica/install/polygon_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luiz/robotica/build/action_tutorials_cpp -- -j12 -l12

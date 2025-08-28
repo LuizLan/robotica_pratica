@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_action_client[0m
+[35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[ 25%] Built target fibonacci_action_server
+[ 50%] Built target action_server
+[ 75%] Built target fibonacci_action_client
+[ 87%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m

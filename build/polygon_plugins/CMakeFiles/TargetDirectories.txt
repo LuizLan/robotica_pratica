@@ -1,0 +1,10 @@
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/uninstall.dir
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/polygon_plugins_uninstall.dir
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/polygon_plugins.dir
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/test.dir
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/edit_cache.dir
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/rebuild_cache.dir
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/list_install_components.dir
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/install.dir
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/install/local.dir
+/home/luiz/robotica/build/polygon_plugins/CMakeFiles/install/strip.dir

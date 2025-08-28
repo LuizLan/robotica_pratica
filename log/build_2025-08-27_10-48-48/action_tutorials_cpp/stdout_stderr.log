@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_action_client[0m
+[35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[ 25%] Built target fibonacci_action_server
+[ 50%] Built target action_server
+[ 75%] Built target fibonacci_action_client
+[ 87%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[01m[K/home/luiz/robotica/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:24:14:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+   24 |             }[01;31m[K=[m[Kvoid send_goal()
+      |              [01;31m[K^[m[K
+[01m[K/home/luiz/robotica/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:[m[K In constructor ‘[01m[Kaction_tutorials_cpp::FibonacciActionClient::FibonacciActionClient(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/luiz/robotica/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:23:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_goal[m[K’ is not a member of ‘[01m[Kaction_tutorials_cpp::FibonacciActionClient[m[K’
+   23 |                 std::bind(&FibonacciActionClient::[01;31m[Ksend_goal[m[K, this));
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
